@@ -1,0 +1,13 @@
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+
+nc: 1
+names: ['apples']
+
+roboflow:
+  workspace: appledetection-vusfs
+  project: apple-detection-gjaf8
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/appledetection-vusfs/apple-detection-gjaf8/dataset/1
